@@ -91,6 +91,14 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
+			<div>
+				<form action="{{ route('send_data') }}">
+				   <p>Форма</p>
+				   <p>Email: <input type="email" name="login"></p>
+				   <p>Пароль: <input type="text" name="name"></p>
+				   <p><input type="submit" value="Отправить"></p>
+				</form>
+			</div>
         </div>
     </body>
 </html>
